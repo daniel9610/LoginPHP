@@ -1,0 +1,64 @@
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>vista derecho sobre toda la db</title>
+</head>
+<body>
+<div style="border: 1px solid blue;">>
+<!-- todo acerca de los usuarios -->
+<label type="text" name="labelUsuarios">Usuarios: </label>
+<br>
+<input type="button" name="Submit" value="Ver Registros" onclick="location='/loginphp/vistas/vistaLectura.php'">
+<br><br>
+<input type="button" name="Submit" value="Crear un usuario" onclick="location='/loginphp/registroUsuarios/registrarse.html'">
+<br><br>
+
+<input type="button" name="Submit" value="Editar un usuario" onclick="location='/loginphp/editarUsuarios/editar-usuario.php'">
+<br><br>
+
+<input type="button" name="Submit" value="Eliminar un registro" onclick="location='/loginphp/eliminarUsuario/formularioEliminar.php'">
+<br><br>
+
+
+	
+	<!-- usuarios -->
+</div>
+<br>
+<div style="border: 1px solid red;">
+<!-- productos -->
+<label type="text" name="RegistrarP"> Lectura y creacion de productos: </label><br><br>
+
+<input type="button" name="Submit" value="Ver Registros de productos" onclick="location='/loginphp/inventarioProductos/vistaInventario/vistaInventario.php'">
+<br><br>
+<input type="button" name="Submit" value="Crear un producto" onclick="location='/loginphp/inventarioProductos/creacionInventario/vistaRegistrarInventario.html'">
+<br><br>
+<input type="button" name="Submit" value="Editar un producto" onclick="location='/loginphp/inventarioProductos/edicionInventario/vistaEditarInventario.html'">
+<br><br>
+
+<!-- proveedores  -->
+
+<label type="text" name="RegistrarPorveedor"> Lectura y creacion de proveedores: </label><br><br>
+
+<input type="button" name="Submit" value="Ver Registros de Proveedores" onclick="location='/loginphp/proveedores/listarProveedores/vistaListarProveedores.php'">
+<br><br>
+<input type="button" name="Submit" value="Crear un proveedor" onclick="location='/loginphp/proveedores/crearProveedor/vistaRegistrarProveedor.html'">
+<br><br>
+<input type="button" name="Submit" value="editar Proveedores" onclick="location='/loginphp/proveedores/editarProveedor/vistaEditarProveedores.html'">
+<!-- bienes  -->
+<br><br>
+<label type="text" name="RegistrarBienes"> Lectura y creacion de bienes: </label><br><br>
+
+<input type="button" name="Submit" value="Ver Registros de Bienes" onclick="location='/loginphp/bienes/visualizarBienes/visualizarBienes.php'">
+<br><br>
+<input type="button" name="Submit" value="Crear un Bien" onclick="location='/loginphp/bienes/crearBienes/vistaRegistrarBienes.html'">
+
+<br><br>
+<input type="button" name="Submit" value="editar bienes" onclick="location='/loginphp/bienes/editarBienes/vistaEditarBienes.html'">
+
+<br><br>
+<a href=logout.php>Cerrar Sesion X </a>
+
+</div>
+</body>
+</html>

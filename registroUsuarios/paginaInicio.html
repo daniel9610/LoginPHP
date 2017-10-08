@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Login</title>
+ <meta charset = "utf-8">
+</head>
+<body>
+
+
+<!-- label y boton para usuarios ya registrados -->
+<label type="text" name="usuariosRegistrados" id="usuariosRegistrados">Si ya estás registrado </label>
+
+<input type="button" name="Submit" value="Inicia Sesion" onclick="location='/loginphp/vistas/login.html'">
+
+<hr/>
+
+<form action="registrar-usuario.php" method="post" >
+
+<h1> registro de usuarios: </h1>
+
+<!-- Formulario para registrarse -->
+
+<label>Nombres:</label>
+
+<input name="nombres" type="text" maxlength="32" id="nombres" required>
+
+<!--<br><br>-->
+
+<!-- apellidos del usuario -->
+
+<label>Apellidos:</label>
+
+<input name="apellidos" type="text" id="apellidos" required>
+
+<br><br>
+<!-- correo electronico -->
+<label>Correo Electronico:</label><br>
+
+<input name="email" type="email" id="email" required>
+
+<br><br>
+
+<!--contraseña y tepetir contraseña-->
+<label>Contraseña:</label><br>
+
+<input name="password" type="password" maxlength="8" id="password" required>
+
+<br><br>
+<!-- radio buttons genero-->
+<label>Genero </label><br>
+
+ <input type="radio" name="Genero" id="radio" value="male"> Masculino
+  <input type="radio" name="Genero" id="radio" value="female"> Femenino
+  
+<br><br>
+
+<!-- roles de usuario-->
+
+<label> Rol de usuario </label><br>
+
+ <input type="radio" name="Rol" value="Lectura"> Lectura
+  <input type="radio" name="Rol" value="LYC"> Lectura y  creacion
+  <input type="radio" name="Rol" value="LCYEd"> Lectura, creacion y edicion
+  <input type="radio" name="Rol" value="LCEdYE"> Lectura, creacion, edicion y eliminacion<br><br>
+
+<!-- boton enviar -->
+<input type="submit" name="Submit" value="REGISTRAR">
+ 
+</form>
+<hr />
+
+ </body>
+</html>

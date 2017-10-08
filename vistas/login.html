@@ -1,0 +1,32 @@
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> LOGIN </title>
+</head>
+<body>
+<h1> LOGIN </h1>
+
+<form action="sesionesLogin.php" method="post" >
+
+<label type="text" name="registrarse" id="registrarse">Si aún no estás registrado </label>
+
+<input type="button" name="Submit" value="Registrarse" onclick="location='/loginphp/registroUsuarios/paginaInicio.html'">
+<br><br>
+
+	<form action = "sesionesLogin.php" method="post">
+
+<label> correo electronico: </label><br>
+<input name="email" type="email" id="loginCorreo" required>
+<br>
+
+<label> Contraseña: </label><br>
+<input name="password" type="password" id="loginPassword" required><br><br>
+
+<input type="submit" name="Submit" value="Login">
+
+</form>
+
+
+</body>
+</html>

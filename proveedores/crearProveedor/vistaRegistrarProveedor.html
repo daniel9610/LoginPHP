@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Registrar proveedor</title>
+ <meta charset = "utf-8">
+</head>
+<body>
+<form action="registrarProveedor.php" method="post" >
+
+<h1> registro de proveedor: </h1>
+
+<!-- Formulario para registrar proveedor -->
+
+<label>nro_orden</label>
+
+<input name="nro_orden" type="text" maxlength="5" id="nro_orden" required>
+
+<!--<br><br>-->
+
+<!-- ruc -->
+
+<label>ruc: </label>
+
+<input name="ruc" type="text" id="ruc" required>
+
+<br><br>
+<!-- razon_social -->
+<label>razon social: </label><br>
+
+<input name="razon_social" type="text" id="razon_social" required>
+
+<br><br>
+
+<!--fecha orden-->
+<label>fecha_orden</label><br>
+
+<input name="fecha_orden" type="text" maxlength="11" id="fecha_orden" required>
+
+<br><br>
+<!-- monto total-->
+<label>monto total: </label><br>
+
+ <input name="monto_total" type="text" id="monto_total" required>
+<br><br>
+<!-- fecha entrega-->
+<label>fecha entrega: </label><br>
+
+ <input name="fecha_entrega" type="text" id="fecha_entrega" required>
+<br><br>
+
+
+<!-- boton enviar -->
+<input type="submit" name="Submit" value="REGISTRAR">
+ 
+</form>
+ </body>
+</html>

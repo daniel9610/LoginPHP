@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Registrarse</title>
+ <meta charset = "utf-8">
+</head>
+<body>
+<form action="registrarProducto.php" method="post" >
+
+<h1> registro de inventario: </h1>
+
+<!-- Formulario para registrar inventario -->
+
+<label>codigo_unico</label>
+
+<input name="codigo_unico" type="text" maxlength="5" id="codigo_unico" required>
+
+<!--<br><br>-->
+
+<!-- id bienes -->
+
+<label>id bienes: </label>
+
+<input name="id_bienes" type="text" id="id_bienes" required>
+
+<br><br>
+<!-- ubicacion -->
+<label>ubicacion: </label><br>
+
+<input name="ubicacion" type="text" id="ubicacion" required>
+
+<br><br>
+
+<!--fecha ingreso-->
+<label>fecha_ingreso</label><br>
+
+<input name="fecha_ingreso" type="text" maxlength="11" id="fecha_ingreso" required>
+
+<br><br>
+<!-- id responsable-->
+<label>id_responsable: </label><br>
+
+ <input name="id_responsable" type="text" id="id_responsable" required>
+<br><br>
+
+
+<!-- boton enviar -->
+<input type="submit" name="Submit" value="REGISTRAR">
+ 
+</form>
+ </body>
+</html>

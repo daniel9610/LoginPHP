@@ -1,0 +1,17 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>vista Lectura</title>
+</head>
+<body>
+<div style="border: 1px solid blue;">>
+<!-- todo acerca de los usuarios -->
+<label type="text" name="labelUsuarios">inventario: </label>
+<br>
+<input type="button" name="Submit" value="Ver Registros" onclick="location='/loginphp/inventarioProductos/vistaInventario/vistaInventario.php'">
+
+<br><br>
+<a href=logout.php>Cerrar Sesion X </a>
+</div>
+</body>
+</html>
